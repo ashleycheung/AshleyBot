@@ -44,7 +44,6 @@ function App() {
   }
   const appStyle = {
     minHeight: '100vh',
-    backgroundColor: 'green',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center'
