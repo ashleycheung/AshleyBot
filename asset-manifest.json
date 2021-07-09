@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AshleyBot/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/AshleyBot/static/js/main.8031c593.chunk.js",
+    "main.js.map": "/AshleyBot/static/js/main.8031c593.chunk.js.map",
+    "runtime-main.js": "/AshleyBot/static/js/runtime-main.d8256619.js",
+    "runtime-main.js.map": "/AshleyBot/static/js/runtime-main.d8256619.js.map",
+    "static/js/2.416b24c3.chunk.js": "/AshleyBot/static/js/2.416b24c3.chunk.js",
+    "static/js/2.416b24c3.chunk.js.map": "/AshleyBot/static/js/2.416b24c3.chunk.js.map",
+    "index.html": "/AshleyBot/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/AshleyBot/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.416b24c3.chunk.js.LICENSE.txt": "/AshleyBot/static/js/2.416b24c3.chunk.js.LICENSE.txt",
+    "static/media/botProfile.94c4f79c.jpg": "/AshleyBot/static/media/botProfile.94c4f79c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8256619.js",
+    "static/js/2.416b24c3.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.8031c593.chunk.js"
+  ]
+}
