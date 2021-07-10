@@ -1,6 +1,19 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import styled from 'styled-components';
 
+const SendButton = styled.button`
+  font-size: 1.5em;
+  padding: 0.5em;
+  border: none;
+  background-color: inherit;
+  border-radius: 50%;
+  :hover {
+    background-color: #EEEEEE;
+  }
+`
 export default function InputBar (props) {
   const InputWrapperStyle = {
     display: 'flex',
@@ -11,10 +24,6 @@ export default function InputBar (props) {
     fontSize: '1.2em',
     width: '100%',
     padding: '0.5em',
-  }
-  const ButtonStyle = {
-    fontSize: '1.5em',
-    padding: '0.5em'
   }
   const [input, setInput] = useState('');
   const onClick = () => {
@@ -27,16 +36,26 @@ export default function InputBar (props) {
       onClick();
     }
   }
+  const renderButton = () => {
+    if (input.length !== 0) {
+      return (
+        <SendButton onClick={onClick}>
+          <FontAwesomeIcon
+              style={{color: '#dc004e'}}
+              icon={faPaperPlane}/>
+        </SendButton>
+      )
+    }
+  }
   return (
     <div style={InputWrapperStyle}>
-      <input style={InputStyle} value={input}
+      <input 
+        placeholder='Aa'
+        style={InputStyle} value={input}
         onKeyUp={onKeyPress}
         onChange={(e) => {setInput(e.target.value)}}
       ></input>
-      <button
-        style={ButtonStyle}
-        onClick={onClick}
-      >Send</button>
+      { renderButton() }
     </div>
   )
 }
