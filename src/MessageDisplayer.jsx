@@ -14,7 +14,7 @@ export default function MessageDisplayer (props) {
     return props.messages.map((msg, id) => {
       // Styles for messages
       const msgStyle = {
-        backgroundColor: 'white',
+        backgroundColor: '#EEEEEE',
         margin: '1em',
         padding: '1em',
         borderRadius: '1em',
@@ -27,8 +27,8 @@ export default function MessageDisplayer (props) {
         alignItems: 'center'
       }
       const imgStyle = {
-        height: '75px',
-        width: '75px',
+        height: '60px',
+        width: '60px',
         borderRadius: '50%'
       }
       if (msg.author === 'User') {
@@ -38,13 +38,13 @@ export default function MessageDisplayer (props) {
             <div style={msgStyle}>
               {msg.message}  
             </div>
-            <img style={imgStyle} src={defaultProfile}/>
+            <img alt='profile' style={imgStyle} src={defaultProfile}/>
           </div>
         )
       }
       return (
         <div style={msgWrapperStyle} key={id}>
-          <img style={imgStyle} src={botProfile}/>
+          <img alt='profile' style={imgStyle} src={botProfile}/>
           <div style={msgStyle}>
             {msg.message}  
           </div>
@@ -53,17 +53,21 @@ export default function MessageDisplayer (props) {
     })
   }
   const displayWrapperStyle = {
-    backgroundColor: 'grey',
-    padding: '1em',
-    flex: '1',
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'flex-end'
+    justifyContent: 'flex-end',
+    height: '75vh'
+  }
+  const messagesWrapper = {
+    overflowY: 'auto',
+    padding: '1em',
   }
   return (
     <div style={displayWrapperStyle}>
-      {renderMessages()}
-      <div ref={messagesEndRef} />
+      <div style={messagesWrapper}>
+        {renderMessages()}
+        <div ref={messagesEndRef} />
+      </div>
     </div>
   )
 }
