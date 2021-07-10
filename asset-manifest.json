@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/AshleyBot/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/AshleyBot/static/js/main.1d6fc13e.chunk.js",
-    "main.js.map": "/AshleyBot/static/js/main.1d6fc13e.chunk.js.map",
+    "main.js": "/AshleyBot/static/js/main.6f9882bb.chunk.js",
+    "main.js.map": "/AshleyBot/static/js/main.6f9882bb.chunk.js.map",
     "runtime-main.js": "/AshleyBot/static/js/runtime-main.d8256619.js",
     "runtime-main.js.map": "/AshleyBot/static/js/runtime-main.d8256619.js.map",
-    "static/js/2.416b24c3.chunk.js": "/AshleyBot/static/js/2.416b24c3.chunk.js",
-    "static/js/2.416b24c3.chunk.js.map": "/AshleyBot/static/js/2.416b24c3.chunk.js.map",
+    "static/js/2.2f8da4de.chunk.js": "/AshleyBot/static/js/2.2f8da4de.chunk.js",
+    "static/js/2.2f8da4de.chunk.js.map": "/AshleyBot/static/js/2.2f8da4de.chunk.js.map",
     "index.html": "/AshleyBot/index.html",
     "static/css/main.ea1455b2.chunk.css.map": "/AshleyBot/static/css/main.ea1455b2.chunk.css.map",
-    "static/js/2.416b24c3.chunk.js.LICENSE.txt": "/AshleyBot/static/js/2.416b24c3.chunk.js.LICENSE.txt",
+    "static/js/2.2f8da4de.chunk.js.LICENSE.txt": "/AshleyBot/static/js/2.2f8da4de.chunk.js.LICENSE.txt",
     "static/media/botProfile.94c4f79c.jpg": "/AshleyBot/static/media/botProfile.94c4f79c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d8256619.js",
-    "static/js/2.416b24c3.chunk.js",
+    "static/js/2.2f8da4de.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.1d6fc13e.chunk.js"
+    "static/js/main.6f9882bb.chunk.js"
   ]
 }
